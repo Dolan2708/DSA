@@ -38,7 +38,7 @@ public class AVL implements ADT{
 
     @Override
     public void removeElement(int q) {
-        if(x == 3)
+        if(x == 1)
         {
             pqr.delete(q);
             pqr.display();
